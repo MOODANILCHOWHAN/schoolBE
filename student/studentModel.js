@@ -87,16 +87,16 @@ const student = new mongoose.Schema({
   },
 
   // Attendance & Performance
-  attendance: [
-    {
-      date: { type: Date, required: true },
-      status: {
-        type: String,
-        enum: ['Present', 'Absent', 'Late'],
-        required: true,
-      },
-    },
-  ],
+  // attendance: [
+  //   {
+  //     date: { type: Date, required: true },
+  //     status: {
+  //       type: String,
+  //       enum: ['Present', 'Absent', 'Late'],
+  //       required: true,
+  //     },
+  //   },
+  // ],
   performance: [
     {
       subject: { type: String, required: true },
